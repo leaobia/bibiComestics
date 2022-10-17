@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    opacity: 0.8;
+}
+nav ul li:hover{
+    
+    opacity: 1;
+}
+
+.l1{
+    background-color: #fff;
+    color: black;
+   
+}
+.l2{
+    background-color: black;
+    width: 25vw;
+}
+.l3{
+    background-color: #F7A3A2;
+    width: 25vw;
+}
+.l4{
+    background-color: #BED9DE;
+    width: 25vw;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    width: 24vw;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.a1{
+    color: black;
+}
+.a2,.a3,.a4{
+    color: #ffff;
+    
+}
+
+#home{
+    height: 85vh;
+    width: 100%;
+    background-color: #B52300;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Telex', sans-serif;
+}
+.texthome{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.colecao1, .colecao2{
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: 700;
+}
+.colecao1{
+    font-size: 3.4rem;
+}
+.colecao2{
+    font-size: 3.8rem;
+}
+
+.botaoCompraHoliday{
+    background-color: #ffff;
+    border: 0px solid #ffff;
+    font-size: 1.5rem;
+    padding: 10px 40px;
+    margin-top: 6%;
+    text-transform: uppercase;
+    color: #B52300;
+    font-weight: 700;
+    cursor: pointer;
+}
+.botaoCompraHoliday:hover{
+    border: 2px solid #ffff;
+    transition: .2s;
+}
