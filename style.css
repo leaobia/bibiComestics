@@ -2,8 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Telex', sans-serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 header{
     border-bottom: 1px solid black;
 }
@@ -17,12 +20,9 @@ nav{
 
 nav ul li{
     display: inline-block;
-    opacity: 0.8;
-}
-nav ul li:hover{
     
-    opacity: 1;
 }
+
 
 .l1{
     background-color: #fff;
@@ -51,6 +51,7 @@ nav ul li a {
     text-transform: uppercase;
     border-bottom: 3px solid transparent;
     width: 24vw;
+    
     font-family: 'Nunito', sans-serif;
     
 }
@@ -73,6 +74,10 @@ nav ul li a {
     align-items: center;
     font-family: 'Telex', sans-serif;
 }
+
+.imgholiday{
+  height: 35vh;
+}
 .texthome{
     display: flex;
     flex-direction: column;
@@ -86,10 +91,10 @@ nav ul li a {
     font-weight: 700;
 }
 .colecao1{
-    font-size: 3.4rem;
+    font-size: 4rem;
 }
 .colecao2{
-    font-size: 3.8rem;
+    font-size: 3rem;
 }
 
 .botaoCompraHoliday{
@@ -207,12 +212,7 @@ nav ul li a {
     margin: 15px 0;
   }
   
-  .card-texto {
-    font-size: 12px;
-    width: 250px;
-    margin: 0 auto;
-  }
-  
+ 
   /* Card Footer */
   .card-footer {
     margin-top: 10px;
@@ -248,3 +248,158 @@ nav ul li a {
   .batmansubtitle{
     font-weight: 200;
   }
+  .espaco{
+    height: 10vh;
+  }
+  #gigi{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: url(./img/gigi-hadid-2018-hd-cy.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .textGigi{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-right: 50vw;
+    
+  }
+  .colecaoGigi1, .colecaoGigi2{
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: 700;
+    
+}
+.colecaoGigi1{
+    font-size: 4rem;
+}
+.colecaoGigi2{
+    font-size: 3rem;
+}
+.botaoCompraGigi{
+  background-color: #ffff;
+  border: 0px solid #ffff;
+  font-size: 1.5rem;
+  padding: 10px 40px;
+  margin-top: 6%;
+  text-transform: uppercase;
+  color: #3C3741;
+  font-weight: 700;
+  cursor: pointer;
+}
+.botaoCompraGigi:hover{
+  border: 2px solid #ffff;
+  transition: .2s;
+}
+#skin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 100%;
+}
+.card-header4 {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: url(./img/creme1.webp);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: .2s step-end;
+}
+
+.card-header4:hover{
+  background: url(./img/pele1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-header5{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: url(./img/creme2.jpg);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: .2s step-end;
+}
+.card-header5:hover{
+  background: url(./img/pele2.jpg.crdownload);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-header6{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: url(./img/creme3.webp);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: .2s step-end;
+}
+.card-header6:hover{
+  background: url(./img/pele3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card-name2 {
+  font-size: 38px;
+  margin: 13px 0;
+  color: #292E40;
+}
+#cloud{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: url(./img/cloudbg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.textCloud{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin-right: 50vw;
+  
+}
+.colecaoCloud1, .colecaoCloud2{
+  text-transform: uppercase;
+  color: #F7A3A2;
+  font-weight: 700;
+  
+}
+.colecaoCloud1{
+  font-size: 4rem;
+}
+.colecaoCloud2{
+  font-size: 3rem;
+}
+.botaoCompraCloud{
+background-color: #ffff;
+border: 0px solid #ffff;
+font-size: 1.5rem;
+padding: 10px 40px;
+margin-top: 6%;
+text-transform: uppercase;
+color: #F7A3A2;
+font-weight: 700;
+cursor: pointer;
+}
+.botaoCompraCloud:hover{
+border: 2px solid #ffff;
+transition: .2s;
+}
+
+
