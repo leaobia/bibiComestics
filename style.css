@@ -10,6 +10,7 @@ header{
 
 nav{
     width: 100%;
+    position: fixed;
     text-align: center;
     
 }
@@ -30,15 +31,15 @@ nav ul li:hover{
 }
 .l2{
     background-color: black;
-    width: 25vw;
+    
 }
 .l3{
     background-color: #F7A3A2;
-    width: 25vw;
+    
 }
 .l4{
     background-color: #BED9DE;
-    width: 25vw;
+    
     
 }
 
@@ -106,3 +107,144 @@ nav ul li a {
     border: 2px solid #ffff;
     transition: .2s;
 }
+#cosmetics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+   
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  /* Card */
+  .card {
+    width: 380px;
+    height: 570px;
+    margin: 25px;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid gray;
+  }
+
+  
+  /* Card Header*/
+  .card-header1 {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background: url(./img/BatomVermelho1.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: .2s step-end;
+  }
+
+  .card-header2{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background: url(./img/paleta1.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: .2s step-end;
+  }
+
+  .card-header3{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background: url(./img/iluminador.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: .2s step-end;
+  }
+
+  
+
+
+  .card-header1:hover{
+    background: url(./img/modelobatom1.webp);
+    background-size: cover;
+    background-position: center;
+  }
+  .card-header2:hover{
+    background: url(./img/2021-07-02-sombra-vermelha-1.webp);
+    background-size: cover;
+    background-position: center;
+  }
+  .card-header3:hover{
+    background: url(./img/iluminador-holografico-20180215133255.webp);
+    background-size: cover;
+    background-position: center;
+  }
+ 
+
+ 
+  /* Card Body */
+  .card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .card-name {
+    font-size: 30px;
+    margin: 13px 0;
+    color: #292E40;
+  }
+  
+  .card-titulo {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  
+  .card-texto {
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #000;
+  }
+  
+  .card-footer a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+  }
+
+  .propagandobatman{
+    height: 30vh;
+    background: url(./img/The-Batman-e-Mulher-Gato-2.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: #ffff;
+  }
+
+  .batmantitle{
+    font-size: 3.8rem;
+  }
+  .batmansubtitle{
+    font-weight: 200;
+  }
