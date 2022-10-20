@@ -43,7 +43,7 @@ nav ul li{
     
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
@@ -129,8 +129,8 @@ nav ul li a {
   
   /* Card */
   .card {
-    width: 380px;
-    height: 570px;
+    width: 23%;
+    height: 100%;
     margin: 25px;
     background-color: #fff;
     overflow: hidden;
@@ -402,4 +402,150 @@ border: 2px solid #ffff;
 transition: .2s;
 }
 
+.card-header7 {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: url(./img/bebeperfume.webp);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: .2s step-end;
+}
+.card-header7:hover{
+  background: url(./img/baby2.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
+.card-header8{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: url(./img/cremebebe.webp);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: .2s step-end;
+}
+
+.card-header8:hover{
+  background: url(./img/baby1.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-header9{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: url(./img/conjunto.jpg);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: .2s step-end;
+  
+}
+
+.card-header9:hover{
+  background: url(./img/baby3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#values{
+  display: grid;
+  grid-template-areas: "title title"
+  "vegan clean";
+  max-width: 1219px;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 90vh;
+  width: 100%;
+  
+}
+.title-values{  
+  grid-area: title;
+  text-align: center;
+  font-size: clamp(3rem,10vw,12rem);
+  font-weight: 700;
+  margin-left: 30%;
+  margin-top: 5%;
+  
+  
+  
+}
+.values_description1{ 
+  grid-area: vegan;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-decoration: none;
+    margin-top: 8%;
+    
+    margin-left: 60%;
+  }
+
+  .values_description2{
+    grid-area: clean;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-decoration: none;
+    margin-top: 8%;
+    margin-left: 60%;
+  }
+.title-vegan, .title-clean{
+  margin-left: 30%;
+  font-size: 2rem;
+}
+.vegan, .clean{
+    font-size: 44px;
+    width: 8%;
+    margin-left: 40%;
+    
+}
+
+.vegan{
+  color: green;
+}
+
+.clean{
+  color: #BED9DE;
+}
+.text-vegan,.text-clean{
+  text-align: center;
+}
+.alert{
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-top: 1px solid gray;
+}
+.title-alert{
+  font-size: 2rem;
+  margin-left: 45%;
+  padding-top: 35px;
+}
+
+.text-alert{
+  width: 70%;
+  margin-left: 15%;
+}
+.social-media{
+   height: 15vh;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  gap: 50px;
+  place-items: center;
+  font-size: 44px;
+  background-color: #000;
+  
+}
+
+.face,.zap,.twitter,.instagram{
+  color: #ffff;
+}
