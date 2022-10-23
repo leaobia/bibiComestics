@@ -470,7 +470,7 @@ transition: .2s;
   font-size: clamp(3rem,10vw,12rem);
   font-weight: 700;
   margin-left: 30%;
-  margin-top: 5%;
+  
   
   
   
@@ -481,9 +481,9 @@ transition: .2s;
     flex-direction: column;
     gap: 32px;
     text-decoration: none;
-    margin-top: 8%;
-    
+    margin-top: 3%;
     margin-left: 60%;
+    width: 50%;
   }
 
   .values_description2{
@@ -492,8 +492,9 @@ transition: .2s;
     flex-direction: column;
     gap: 32px;
     text-decoration: none;
-    margin-top: 8%;
+    margin-top: 3%;
     margin-left: 60%;
+    width: 50%;
   }
 .title-vegan, .title-clean{
   margin-left: 30%;
