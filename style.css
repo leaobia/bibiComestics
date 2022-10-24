@@ -457,66 +457,67 @@ transition: .2s;
   display: grid;
   grid-template-areas: "title title"
   "vegan clean";
-  max-width: 1219px;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto 2fr;
   grid-template-columns: 1fr 1fr;
   height: 90vh;
   width: 100%;
+ 
   
 }
 .title-values{  
   grid-area: title;
   text-align: center;
-  font-size: clamp(2rem,10vw,9rem);
   font-weight: 700;
-  margin-left: 42%;
+  width: 100%;
   padding-top: 5%;
-  
+  font-size: 10rem;
   
   
   
 }
 .values_description1{ 
   grid-area: vegan;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+   align-items: center;
+   justify-content: center;
     text-decoration: none;
-    margin-top: 3%;
-    margin-left: 60%;
-    width: 50%;
+   
+    
+    
   }
 
   .values_description2{
+ 
+    
     grid-area: clean;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    text-decoration: none;
-    margin-top: 3%;
-    margin-left: 60%;
-    width: 50%;
+    
   }
 .title-vegan, .title-clean{
-  margin-left: 30%;
+  margin-left: 47%;
   font-size: 2rem;
+  padding-top: 5%;
 }
 .vegan, .clean{
     font-size: 44px;
     width: 8%;
-    margin-left: 40%;
+    
     
 }
 
 .vegan{
   color: green;
+  margin-left: 50%;
 }
 
 .clean{
   color: #BED9DE;
+  margin-left: 50%;
 }
 .text-vegan,.text-clean{
   text-align: center;
+  padding-top: 10%;
+  width: 50%;
+  margin-left: 26%;
+  
 }
 .alert{
   height: 25vh;
